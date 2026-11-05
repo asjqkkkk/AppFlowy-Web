@@ -1098,12 +1098,12 @@ span[data-slate-placeholder="true"]:not(.inline-block-content) {
     min-height: 28px;
   }
 
-  > div:last-child:has(> button[aria-haspopup='menu']) {
+  > .file-block-toolbar {
     opacity: 0;
   }
 
-  &:hover > div:last-child,
-  &:focus-within > div:last-child {
+  &:hover > .file-block-toolbar,
+  &:focus-within > .file-block-toolbar {
     opacity: 1;
   }
 }
